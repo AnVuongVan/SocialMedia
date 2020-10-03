@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:id="@+id/message_layout_row_chat">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.blogspot.atifsoftwares.circularimageview.CircularImageView
+            android:id="@+id/profile_row_chat"
+            app:c_border_color="@null"
+            android:visibility="gone"
+            android:src="@drawable/ic_default_img"
+            android:layout_width="48dp"
+            android:layout_height="48dp" />
+
+        <TextView
+            android:id="@+id/time_row_chat"
+            android:textSize="12sp"
+            android:textColor="#4A4A4A"
+            android:textStyle="italic"
+            android:layout_marginEnd="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/message_row_chat"
+            android:textSize="16sp"
+            android:textColor="#3E3E3E"
+            android:background="@drawable/bg_sender"
+            android:padding="15dp"
+            android:visibility="gone"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@id/time_row_chat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/messageIv_row_chat"
+            android:adjustViewBounds="true"
+            android:padding="15dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_image_black"
+            android:background="@drawable/bg_sender"
+            android:layout_alignParentEnd="true"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/seen_row_chat"
+        android:gravity="end"
+        android:textAlignment="textEnd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

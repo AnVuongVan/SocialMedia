@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "456159803835",
+    "firebase_url": "https://socialmedia-ed3be.firebaseio.com",
+    "project_id": "socialmedia-ed3be",
+    "storage_bucket": "socialmedia-ed3be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456159803835:android:1d1a5882a380b7ca106c9e",
+        "android_client_info": {
+          "package_name": "com.vietis.media"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456159803835-dsn14ehiq6josms15po8t8dpog4bt0dn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8bxuty2x87ldX-s7LxFvCwFdgyA_FCW0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456159803835-dsn14ehiq6josms15po8t8dpog4bt0dn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
